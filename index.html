@@ -1,0 +1,27 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Notepad</title>
+    <meta name="color-scheme" content="dark light">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; connect-src 'self'; img-src 'self'; style-src 'self'; base-uri 'self'; form-action 'self'; require-trusted-types-for 'script'">
+    <link rel="stylesheet" href="style.css">
+    <meta name="color-scheme" content="dark light">
+</head>
+
+<body>
+    <header>
+        <select id="notesHistory"><option value="#default">#default</option></select>
+        <button id="deleteNote">Delete</button>
+        <button id="openLocalFile">Open local file</button>
+    </header>
+    <main>
+        <textarea id="notepad"></textarea>
+    </main>
+    <footer></footer>
+
+    <script src="main.js" type="module"></script>
+</body>
+
+</html>

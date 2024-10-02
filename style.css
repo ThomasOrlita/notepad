@@ -1,0 +1,68 @@
+* {
+    font-family: monospace, sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-family: monospace, sans-serif;
+}
+
+html,
+body,
+input,
+textarea {
+    background-color: #283034 !important;
+    color: #fff;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    opacity: 0.35;
+}
+
+header:hover,
+header:focus-within {
+    opacity: 1;
+}
+
+header,
+select,
+button {
+    display: flex;
+    background-color: #394047;
+}
+
+
+select,
+button {
+    border: none;
+    margin-right: 0.5em;
+}
+
+select:hover,
+button:hover {
+    background-color: #495158;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex: 1;
+}
+
+textarea#notepad {
+    display: flex;
+    flex: 1;
+    resize: none;
+    font: inherit;
+    border: none;
+    outline: none;
+    padding: 0.5em;
+}
